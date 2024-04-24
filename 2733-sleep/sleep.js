@@ -3,9 +3,9 @@
  * @return {Promise}
  */
 async function sleep(millis) {
-    return new Promise((resolve, reject) => {
+    return new Promise((resolve) => {
     setTimeout(() => {
-        resolve('Operation completed successfully!');
+        resolve();
     }, millis);
   });
 }
